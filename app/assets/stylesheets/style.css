@@ -1,0 +1,705 @@
+/*
+	Author: Luis Rocha
+	Date: 01/09/2014
+*/
+
+body
+{
+	background-color: #ebe8de;
+	margin: 0; /*Elimina as margens */
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+}
+
+
+/*Estilizar os botões*/
+
+input, button
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 7px;
+	outline: 0;
+	border: 0;
+	width: 250px;
+	background: #EBE8DE;
+	border-radius: 5px;
+}
+
+
+input[type=button], button, input[type=submit], #box_operations  input[type=submit] , #box_operations  .right input[type=button] 
+{
+	width: auto;
+	padding: 5px 18px;
+	line-height: 25px;
+	cursor: pointer;
+	background: #333333;
+	color: #fff;
+}
+
+
+
+p
+{
+	margin: 5px 0;
+	line-height: 25px;
+}
+
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+	transition: color .5s ease;
+	/* O ease produz uma aceleração gradual no inicio da transição até ao fim */
+}
+
+
+hr
+{
+	border: 2px solid #e56038; /*Linha no inicio da pagina laranja*/
+	height: 0px;
+	margin: 0;
+}
+
+
+
+
+/* max-widht --> Adapta a dimensão do ecrã. Se for maior que 900px fica com 900px.
+
+
+/* Para crentar o conteudo uso margin-right = margin-left = auto */
+
+
+
+header
+{
+	position: relative;
+	width: auto;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header h1
+{
+	margin: 15px 0 0 0;
+	font-size: 55px;
+	color: #e56038;
+	transition: all 0.25s ease;
+	font-family: 'Baumans', cursive;
+}
+
+
+header h1 a:hover
+{
+	color: #4A463B;
+
+}
+
+
+header h2
+{
+	font-family: 'Open Sans', san-serif;
+	font-size: 16px;
+	color: #4A463B;
+	margin-left: 132px;
+	margin-top: 1px;
+}
+
+nav
+{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	top: 50px;
+}
+	
+nav ul
+{
+	list-style: none;  /* Tiro as bolas dos items da lista */
+}
+
+
+nav ul li
+{
+	display: block;
+	float: left; /* Obriga a que fiquem alinhados da esquerda para a direita -> semelhante ao inline */
+	padding: 1px 15px;
+}
+
+
+nav ul li a
+{
+	font-family: 'Open Sans', san-serif;
+	text-transform: uppercase;
+	transition: all 0.25s ease;
+	font-size: 16px;
+	line-height: 18px;
+
+}
+
+
+
+nav ul li a:hover
+{
+	color: #E56038;
+}
+
+
+
+/* Container de texto com o sign up na imagem e a imagem */
+
+.container
+{
+	width:auto;
+	margin: 0 auto;
+	position:relative;
+	
+}
+
+
+.container  img
+{
+	width: 100%;
+	margin-bottom: 0;
+	
+	/* Fade in*/
+	-webkit-animation: fadein 2s; 	/* Safari, Chrome and Opera (newer versions)*/
+    -moz-animation: fadein 2s; 		/* Firefox */
+    animation: fadein 2s;
+	
+}
+
+
+@keyframes fadein
+{
+    from { opacity: 0.10; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein
+{
+    from { opacity: 0.10; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera */
+@-webkit-keyframes fadein
+{
+    from { opacity: 0.10; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+#content   /* Wrapper que contém o conteudo de texto e o botao sign up em cima da imagem */
+{
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	width:350px;
+	display: block;
+	position:absolute;
+	top:5%;
+	left:15%;
+	z-index:11;
+}
+
+
+#content h3
+{
+	color:#EBE8DE;
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:10px;
+	background-color:#333333;
+	padding:10px 15px;
+	border-radius: 15px 0 15px 0;
+	display:inline-block;
+}
+
+
+#content p
+{
+	margin: 0 0 30px 0;
+	color: #4a463b;
+	background-color: #EBE8DE;
+	padding: 10px 15px;
+	border-radius: 5px; /* Todos os cantos tem border-radius de 5px */
+	
+		
+}
+
+
+
+#boxcontent /* As três colunas com os três features -> Abaixo da imagem */
+{
+	width: auto;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 70px 0 45px 0;
+	
+	
+}
+
+#boxcontent article
+{
+	float: left;
+	width: 250px;  /* Como uso apenas três artigo fica 250px * 3 = 750px -- Espaço branco de 150px */
+	margin-right: 45px;
+	font-size: 14px;
+	border-top: 1px solid #e56038;
+	padding-top: 5px;
+	
+
+}
+
+
+#boxcontent article h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-left: 75px;
+	margin-top: 0;
+	
+}
+
+#boxcontent article img
+{
+	float: left;
+	width: 64px;
+	height: 64px;
+	}
+
+
+#boxcontent article p
+{
+	line-height: 25px;
+	font-family: 'Open Sans' , sans-serif;
+	margin-left: 75px;
+
+}
+
+
+
+
+
+/*Menu com duas colunas, na segunda coluna duas linhas*/
+
+
+.wrapper_columns
+{
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	clear: both;
+	width: auto;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+.wrapper_columns h3
+{
+	font-size: 20px;
+	border-bottom: 1px solid #e56038;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+
+
+
+
+.wrapper_columns .column_left
+{
+	margin-top: 10px;
+	font-size: 14px;
+	float: left;
+	width: auto;
+	max-width: 450px;
+}
+
+
+.wrapper_columns .column_right
+{
+	margin: 60px 0 0 0;
+	font-size:14px;
+	float: right;
+	width: auto;
+	max-width: 450px;
+}
+
+
+
+.row
+{
+    position: relative;
+    margin: 40px 0 0 50px;
+    float: right;
+    width: 350px;
+}
+
+.row img
+{
+    float: left;
+	top: 0;
+    left: 0;
+    position: absolute;
+    height: 80px;
+	width: 64px;
+	height: 64px;
+	
+}
+
+.row p
+{
+    margin-left: 100px;
+}
+
+
+/*Footer*/
+
+
+footer{
+	position: relative;
+	clear: both;
+	background: #D6D0D0;
+	margin: 35px auto 0px auto;
+	width: 100%;
+	padding: 10px 0;
+}
+
+
+
+.wrapper /* Centrar o conteudo no centro do footer*/
+{
+	position: relative;
+	line-height: 25px;
+	margin: 0 auto;
+	width: auto;
+	max-width: 900px;
+	font-family: 'Open Sans', sans-serif;
+	color: #4A463B;
+	font-size: 14px;
+}
+
+
+ .wrapper .social   
+{
+	position: absolute;
+	display: block;
+	right: 0;     /* Poem no canto direito do wrapper */
+}
+
+.wrapper .social a   /* Espaço entre os links*/
+{
+	margin-left: 12px;
+}
+
+
+
+/* Menu a esquerda das operações com aside */
+
+aside{
+	position: relative;
+	width: auto;
+	margin: 0 auto;
+}
+
+
+aside #operations
+{
+	position: relative;
+	max-width: 200px;
+	line-height: 25px;
+	display: block;
+	float: left;
+	margin-top: 25px;
+	margin-left: 310px;
+	margin-right: 50px;
+	left: 0;
+
+}
+
+
+aside #operations h3
+{
+	color: #333333;
+	font-size: 21px;
+	padding: 10px 15px;
+	border-radius: 15px 0 15px 0;
+	border: 2px solid #333333;
+	margin: 0px auto 2px auto;
+	display: inline-block;
+	width: 125px;
+}
+
+
+#operations input[type=button]
+{
+	margin-top: 5px;
+	width: 140px;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+#operations a span input[type=button]
+{
+	margin-top: 5px;
+	width: 140px;
+	text-align: center;
+	color: #FF693B;
+	font-size: 13px;
+}
+
+
+
+/* Graphs no meio 2x2 */
+
+
+
+#graphs
+{
+	width: auto;
+	max-width: 900px;
+	margin: 40px 0px 0px 80px;
+	float: left;
+}
+
+
+#graphs article
+{
+	float: left;
+	width: 250px;
+	margin-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+
+#graphs article h3
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 5px;
+}
+
+
+
+#graphs img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-bottom: 10px;
+}
+
+
+/* Botão de login e log out */
+
+.login input, .log_out input
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	line-height: 25px;
+	background: #EBE8DE;
+	border-radius: 5px;
+	width: 70px;
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+
+
+
+
+.login input[type=submit] , .log_out input[type=submit]
+{
+	width: 80px;
+	padding: 0px;
+	cursor: pointer;
+	background: #333333;
+	color: #fff;
+	height: 25px;
+	font-family: 'Open Sans', san-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+
+
+
+.left{
+	width: auto;
+	max-width: 450px;
+	float: left;
+}
+
+.right{
+	width: auto;
+	max-width: 450px;
+	float: right;
+}
+
+
+
+.left h4, .right h4{
+	margin: 0 auto;	
+	padding: 5px 0;
+}
+	
+
+	
+	
+.right input[type=submit]
+{
+	width:auto;
+	padding: 5px 18px;
+	line-height: 25px;
+	cursor: pointer;
+	background: #333333;
+	color: #fff;
+}
+	
+	
+
+/* Caixa com o conteudo da operação selecionada.  */
+	
+
+#box_operations
+{
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	width: auto;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+
+#box_operations h3
+{
+	font-size: 20px;
+	border-bottom: 1px solid #e56038;
+	padding: 15px 0;
+	margin-bottom: 10px;
+}
+
+
+	
+#box_operations .left
+{
+	width: auto;
+	max-width: 330px;
+	float: left;
+}
+
+#box_operations .right
+{
+	width: auto;
+	max-width: 350px;
+	padding-left: 20px;
+}	
+	
+
+#box_operations  input
+{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	background: #EBE8DE;
+	border-radius: 5px;
+	width: 140px;
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+
+
+
+#box_operations  input[type=date]
+{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	background: #EBE8DE;
+	border-radius: 5px;
+	width: 155px;
+	padding: 0px 15px;
+	margin-top: 0px;
+}
+
+
+
+
+	
+#box_operations  input[type=checkbox]
+{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+	background: #EBE8DE;
+	border-radius:5px;
+	width: 15px;
+	padding: 0;
+	margin-top: 0px;
+}
+	
+	
+	
+table /* Cursor pointer on the table*/
+{
+	cursor:pointer;
+}
+	
+tr, td{
+	border: 1px solid #333333;
+	text-align: center;
+}
+
+
+th{
+	color: #ffffff;
+	background-color: #555555;
+	text-align: center;
+	border: 1px solid #333333;
+	width: 75px;
+}
+
+
+
+
+#signup_link, #delete_rows_transaction, #delete_rows_category, #email_us_link /* Links with button form */
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	outline: 0;
+	border: 0;
+	border-radius: 5px;
+	width: auto;
+	padding: 5px 18px;
+	line-height: 25px;
+	cursor: pointer;
+	background: #333333;
+	color: #fff;
+}
+
+
+
+
+
+.noselection   /* Don't allow to select, only click! */
+{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+
+}
+
+	
