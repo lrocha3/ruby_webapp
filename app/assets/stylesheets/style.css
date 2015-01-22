@@ -255,7 +255,7 @@ nav ul li a:hover
 	width: auto;
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 70px 0 45px 0;
+	padding: 40px 0 45px 0;
 	
 	
 }
@@ -388,7 +388,7 @@ nav ul li a:hover
 
 .wrapper_columns
 {
-	line-height: 25px;
+	line-height: 15px;
 	font-family: 'Open Sans', sans-serif;
 	clear: both;
 	width: auto;
@@ -401,7 +401,7 @@ nav ul li a:hover
 {
 	font-size: 20px;
 	border-bottom: 1px solid #e56038;
-	padding: 20px 0;
+	padding: 10px 0;
 	margin-bottom: 20px;
 }
 
@@ -410,7 +410,7 @@ nav ul li a:hover
 
 .wrapper_columns .column_left
 {
-	margin-top: 10px;
+	margin-top: 5px;
 	font-size: 14px;
 	float: left;
 	width: auto;
@@ -432,7 +432,7 @@ nav ul li a:hover
 .row
 {
     position: relative;
-    margin: 40px 0 0 50px;
+    margin: 10px 0 0 50px;
     float: right;
     width: 350px;
 }
@@ -464,7 +464,7 @@ footer{
 	background: #D6D0D0;
 	margin: 35px auto 0px auto;
 	width: 100%;
-	padding: 10px 0;
+	padding: 14px 0;
 }
 
 

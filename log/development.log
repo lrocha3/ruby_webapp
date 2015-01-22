@@ -49980,3 +49980,4279 @@ Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:10:26 +0100
 Processing by UsersController#new as HTML
   Rendered users/new.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:15:23 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:15:25 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:30:37 +0100
+
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  config/routes.rb:7:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 171ms (Views: 170.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/application-c8cb4382a007379bbef9e8f692c5213d.css?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/application-881243b284f382562109e2a1bdf1b3c6.js?body=1" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:32:46 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:32:47 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 55ms (Views: 50.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:32:47 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:32:50 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-01-22 01:33:00 +0100
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (37.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-01-22 01:33:17 +0100
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (17.8ms)
+
+
+Started GET "/login/new" for 127.0.0.1 at 2015-01-22 01:33:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/login/new"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (1.0ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (24.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:34:05 +0100
+
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  config/routes.rb:4:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (29.1ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.0ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (42.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:34:17 +0100
+
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  config/routes.rb:7:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (15.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:34:22 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  config/routes.rb:7:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (13.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/application-c8cb4382a007379bbef9e8f692c5213d.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/application-881243b284f382562109e2a1bdf1b3c6.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:34:28 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:34:29 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/application-c8cb4382a007379bbef9e8f692c5213d.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/application-881243b284f382562109e2a1bdf1b3c6.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:34:30 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/application-c8cb4382a007379bbef9e8f692c5213d.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/application-881243b284f382562109e2a1bdf1b3c6.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:34:31 +0100
+
+
+Started GET "/login" for 127.0.0.1 at 2015-01-22 01:34:34 +0100
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:22:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/routes/_table.html.erb (0.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/routing_error.html.erb within rescues/layout (18.1ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:34:50 +0100
+
+
+Started GET "/user_session" for 127.0.0.1 at 2015-01-22 01:34:55 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UserSessionController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (0.3ms)
+
+
+Started GET "/user_session" for 127.0.0.1 at 2015-01-22 01:36:20 +0100
+
+AbstractController::ActionNotFound (The action 'index' could not be found for UserSessionController):
+  actionpack (4.2.0) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.0) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.0) lib/action_controller/metal.rb:236:in `block in action'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:42:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.0) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.0) lib/action_dispatch/routing/route_set.rb:802:in `call'
+  rack (1.6.0) lib/rack/etag.rb:24:in `call'
+  rack (1.6.0) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.0) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.0) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  activerecord (4.2.0) lib/active_record/migration.rb:378:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.0) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.0) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.0) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.0) lib/rack/lock.rb:17:in `call'
+  rack (1.6.0) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.0) lib/rack/handler/webrick.rb:89:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/luis/.rbenv/versions/2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/user_session/new" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+Processing by UserSessionController#new as HTML
+  Rendered user_session/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 94ms (Views: 92.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:26 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m9XEeI8XK/Iqd18U+jcnX7VVwJuN98/hC7EM+ORvOZB+e3V1LAtimYv9LZQr23uf4yzMg0hpzfqyJIw1K8HCAg==", "user"=>{"username"=>"lrocha3", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'lrocha3' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 46ms (Views: 40.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:36:34 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m9XEeI8XK/Iqd18U+jcnX7VVwJuN98/hC7EM+ORvOZB+e3V1LAtimYv9LZQr23uf4yzMg0hpzfqyJIw1K8HCAg==", "user"=>{"username"=>"lrocha3", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'lrocha3' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 89ms (Views: 53.9ms | ActiveRecord: 30.2ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:36:38 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m9XEeI8XK/Iqd18U+jcnX7VVwJuN98/hC7EM+ORvOZB+e3V1LAtimYv9LZQr23uf4yzMg0hpzfqyJIw1K8HCAg==", "user"=>{"username"=>"lrocha3", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'lrocha3' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 51ms (Views: 42.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:37:12 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:42:24 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:42:31 +0100
+
+
+Started GET "/user_session/new" for 127.0.0.1 at 2015-01-22 01:42:37 +0100
+
+SyntaxError (/home/luis/Documents/ruby_webapp/app/controllers/user_session_controller.rb:8: syntax error, unexpected ')', expecting ']'):
+  app/controllers/user_session_controller.rb:8: syntax error, unexpected ')', expecting ']'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (13.7ms)
+
+
+Started GET "/user_session/new" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+Processing by UserSessionController#new as HTML
+  Rendered user_session/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 49ms (Views: 44.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/application-c8cb4382a007379bbef9e8f692c5213d.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started GET "/assets/application-881243b284f382562109e2a1bdf1b3c6.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:48 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rzpfVS8FiZ6QXPCX8nRZkNQhXmZmmnblJNT4pY3SuGtKlO5YjBnA9THWghcjmAVQglhSfqMEdP6dQXhoQnxD+Q==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 49ms (Views: 43.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:42:51 +0100
+
+
+Started GET "/user_session/new" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+Processing by UserSessionController#new as HTML
+  Rendered user_session/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 43.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/application-c8cb4382a007379bbef9e8f692c5213d.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started GET "/assets/application-881243b284f382562109e2a1bdf1b3c6.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:02 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FRKPSnA8NB9Dxb1RUmQxZrV5D6dcQs10DavbPpDBcpfwvD5H0yB9dOJPz9GDiG2m4wADv5ncz2+0PlvzX2+JBQ==", "user"=>{"username"=>"sd", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'sd' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 44.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:43:03 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FRKPSnA8NB9Dxb1RUmQxZrV5D6dcQs10DavbPpDBcpfwvD5H0yB9dOJPz9GDiG2m4wADv5ncz2+0PlvzX2+JBQ==", "user"=>{"username"=>"sd", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'sd' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 53ms (Views: 49.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/assets/banner-0b95e7f849d998e26a14b5546414a932.jpg" for 127.0.0.1 at 2015-01-22 01:43:07 +0100
+
+
+Started GET "/user_session/new" for 127.0.0.1 at 2015-01-22 01:43:24 +0100
+Processing by UserSessionController#new as HTML
+  Rendered user_session/new.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <%= form_for(@user) do |f| %>
+    2:                           
+    3:                 <p><%= f.label :"Username:" %><br />
+    4:                     <%= f.text_field :username %> 
+  app/views/user_session/new.html.erb:1:in `_app_views_user_session_new_html_erb___820732471476083399_70043065232340'
+
+
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.5ms)
+  Rendered /home/luis/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-22 01:52:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 127ms (Views: 121.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:52:03 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:52:05 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 62ms (Views: 55.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:52:05 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o3kOa5YLIEVB9u5jqREqIW4hTlsjLtAsP3U4AmpdsZsb6YVY+ACBQn4zLooTD4Ue6Dju/Fm91nSVHZi50pUfPA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 77ms (Views: 65.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:07 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 113ms (Views: 102.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:52:11 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 82ms (Views: 74.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:53:04 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 76ms (Views: 70.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:53:07 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 83ms (Views: 78.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:53:21 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 48ms (Views: 44.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:53:35 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 76ms (Views: 69.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:53:58 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 56ms (Views: 51.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:54:10 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 67ms (Views: 61.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:54:22 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 81ms (Views: 71.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:54:51 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 46ms (Views: 42.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:55:03 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:55:11 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IKXE94MTU5sxHZNBZLMahLmWHHE3Vm6ia0Yky8ve/KuYNU/E7RjynA7YU6jerbW7P4+81k3FaPrBLoRwcxZSDA==", "user"=>{"username"=>"aaa", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY 'aaa' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 55ms (Views: 51.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:21 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:22 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:22 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:55:22 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:55:22 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:55:22 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:55:22 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:55:27 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/style-c0958d647953ebec9272d39fd91d3296.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/application-0dc805c19b51385020df690743519593.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:55:28 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:56:02 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 101ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/style-15903a54aea8381a464b0283dd06e3a4.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/application-d714da11433f44b2cff84875488f8dad.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:56:03 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/style-36fd85a77f8a917efda52ec8b536c2be.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/application-ee1e7355ac1844c442c8cd3b0fce7616.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:56:14 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:56:24 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/style-cfc2a49c16c9ebfe642a59afcf621b99.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/application-3a5f4873584bcb16f8b7b9f2e781d075.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/style-cfc2a49c16c9ebfe642a59afcf621b99.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/application-3a5f4873584bcb16f8b7b9f2e781d075.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:56:25 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:56:26 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:56:26 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:56:28 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:56:28 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/style-3df6565c912380b460ef277206674260.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/application-43ca59b2bc1da8ccdeb07464acd3c2c8.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:56:51 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 52ms (Views: 51.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/application-43ca59b2bc1da8ccdeb07464acd3c2c8.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/style-3df6565c912380b460ef277206674260.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:56:53 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 77ms (Views: 76.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/style-0f53b78a5f90a5d527b84c95a2563e86.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/application-ae84d31b13a6c7bfada6ccd00c113e35.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:56:57 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/style-0f53b78a5f90a5d527b84c95a2563e86.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/application-ae84d31b13a6c7bfada6ccd00c113e35.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:56:58 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 62ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/style-c7af23a0347f856418a7785f80d9d02b.css?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/application-586a9e9036477998fd91d72e8d5fa833.css?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:57:06 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:57:10 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:57:10 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:57:10 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:57:10 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:57:10 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:57:11 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:57:11 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:57:11 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:58:19 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 47ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:58:21 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:58:25 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 52ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:58:25 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:58:29 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:58:31 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 47ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:58:48 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:58:49 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:58:59 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 46ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:59:00 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style-c7af23a0347f856418a7785f80d9d02b.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/application-586a9e9036477998fd91d72e8d5fa833.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:59:24 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/application-586a9e9036477998fd91d72e8d5fa833.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/style-c7af23a0347f856418a7785f80d9d02b.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:59:25 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:59:27 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 01:59:34 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:59:35 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:59:35 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 49ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:52 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 01:59:53 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 47ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 02:00:00 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B1fEqhBHrnjk4QXzZVHtD6Uxk68KYQoa1uPHJ6awrxe/x0+ZfkwPf9skxRrfT0IwIygzCHDyDEJ8i2ecHngBsA==", "user"=>{"username"=>"", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 44.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:00:02 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8GqTTkI8roeTdWctj423YhPBZiT6Se9q1ducSnDMYF9I+hh9LDcPgKywp8Q1kxhdldjGg4Da6TJ/szzxyATO+A==", "user"=>{"username"=>"", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 67ms (Views: 60.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:00:05 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/application-791be29e579a613e5430d62bb6717c8c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/style-63297101a02cf322fd16a4d4b1edf79d.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 02:00:14 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:00:24 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:00:24 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/style-491562d4d058820265fb833c2ba5968c.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/application-d95c34d6c89149ee8127fa513aef9b88.css?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 02:00:53 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 73ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/style-bf8ae3c678ef2390078e55992c1c19dc.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/application-0fcd608e3df1f2d20756b03ee3769918.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 02:01:11 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/style-a72887e9ac96c652e91ed7165ee5c3ed.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/application-f1524b18ac84af25226a2a521255362e.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/password-e9cbe2deee4ae4ee9e666b449caa7a1e.png" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/email-23e391dd1f8f12864e4f0b1fca4b17f0.png" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 02:01:33 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 54ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 02:01:39 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:01:43 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 49ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UcHE7SzjA7eVBOu8vQ9XToQkQLi+lEgkYxt8r1UbPd/pUU/eQuiisKrBK1UHEfhxAj3gH8QHTnzJc9wU7dOTeA==", "user"=>{"username"=>"", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 48ms (Views: 44.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:01:46 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UcHE7SzjA7eVBOu8vQ9XToQkQLi+lEgkYxt8r1UbPd/pUU/eQuiisKrBK1UHEfhxAj3gH8QHTnzJc9wU7dOTeA==", "user"=>{"username"=>"", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 79ms (Views: 75.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/style-4b1955c6fa7d42685edaf21f78aab196.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/application-1cb0beeda8bb63d8861c5a46da29588c.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/facebook-8f7fb519ac7c778e8fe4f1063af58487.png" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/google-fb42fcb1e908660da2db9b5f733d8958.png" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/assets/twitter-b4f06f9b7da121ea3e6953ad331ad359.png" for 127.0.0.1 at 2015-01-22 02:01:55 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 02:01:56 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:01:58 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:01:58 +0100
+
+
+Started POST "/users" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kw9YjMEmbD+gp9bhA6OUWrdCqYUdwsTzwTIQc9gvszOTn9O/ry3NOJ9iFgi5vTtlMVsJImdRwqtrWrDIYOcdlA==", "user"=>{"username"=>"", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT  1 AS one FROM `users` WHERE `users`.`username` = BINARY '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  Rendered users/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 52ms (Views: 48.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:02:00 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 46ms (Views: 45.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/openSansBaumans-0acd421fd98ced974f518c13a036963c.css?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/user_session-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/users-069e88c06b889877799890854d7f4c40.css?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/jquery-1.11.1-ea2706bc2d0586731b7c00ec2cd0a414.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/script-e33a31a3f360aa558401e8c8b85179f0.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/user_session-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/users-8f6eecd1178ef85964369ec66d33c4f1.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/application-1d1d0447c8e05a83fc38bd78fd0830a3.js?body=1" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/banner.jpg" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/icon2.png" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/facebook.png" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/icon1.png" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/icon3.png" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/assets/google.png" for 127.0.0.1 at 2015-01-22 02:02:04 +0100
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-01-22 02:02:10 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 44ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/banner-07bebdad1a38ba733582e99e8dac5a1e.jpg" for 127.0.0.1 at 2015-01-22 02:02:10 +0100
