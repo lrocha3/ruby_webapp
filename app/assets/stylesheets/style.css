@@ -133,13 +133,32 @@ nav ul
 }
 
 
-nav ul li
+nav ul li, nav ul li span
 {
 	display: block;
 	float: left; /* Obriga a que fiquem alinhados da esquerda para a direita -> semelhante ao inline */
 	padding: 1px 15px;
 }
 
+nav ul li span
+{
+    display: block;
+	float: left; /* Obriga a que fiquem alinhados da esquerda para a direita -> semelhante ao inline */
+	padding: 1px 15px;
+    font-family: 'Open Sans', san-serif;
+	transition: all 0.25s ease;
+	font-size: 16px;
+	line-height: 18px;
+    color: #E56038;
+    
+}
+
+nav ul li span:hover
+{
+	color: inherit;
+
+    
+}
 
 nav ul li a
 {
@@ -151,6 +170,7 @@ nav ul li a
 
 }
 
+n
 
 
 nav ul li a:hover

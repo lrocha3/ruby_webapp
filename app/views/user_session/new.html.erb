@@ -1,12 +1,141 @@
-<%= form_for(@user) do |f| %>
-                          
-                <p><%= f.label :"Username:" %><br />
-                    <%= f.text_field :username %> 
+
+
+        <section class="container">
+
+            <article id="content"> 
+
+                <h3>Create your account!</h3>
+
+                <p>Just one more step to go. After the signup you can use this enterly app.</p>
+
+
+            </article>
+
+            <%= image_tag("banner.jpg") %>
+        </section>			
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        <section class="wrapper_columns">
+
+            <article class="column_left">  
+
+                <a id="signup"></a>
+
+                <h3>Log In</h3>
+
+
+                
+<%= form_tag(:controller => "user_session",:action => "create") do %>
+
+
+
+                      
+                <p><%= label_tag :"Username:" %><br />
+                    <%= text_field_tag :username %> 
                     </p>
-                    <p><%= f.label :"Password:" %><br />
-                    <%= f.password_field :password %>
+                    <p><%= label_tag :"Password:" %><br />
+                    <%= password_field_tag :password %>
                     </p>
                 
-                    <p><%= f.submit "Login" %></p>
+                    <p><%= submit_tag "Login" %></p>
                                 
-                <% end %>
+ <% end %>
+
+                
+                
+            </article>
+
+            <section class="column_right">
+
+                
+                
+                    <% if flash %>
+                <article class="row">  
+
+                    
+                    <p>
+                    <h2>Errors:</h2>
+                    <ul>
+                        <% flash.each do |name, msg| %>
+    <%= content_tag :div, msg, :id => "flash_#{name}" %>
+                        <% end %>
+                    </ul>
+                    
+                
+                    </p>
+
+                </article>   
+            
+            <% else %>
+                
+            <article class="row">  
+
+                <%= image_tag "password.png" %>
+                    <p>
+                        Please choose a password with characters and numbers.
+                        It's for your safety!
+                    </p>
+
+                </article>   
+            
+
+                <article class="row">  
+
+                <%= image_tag "email.png" %>
+                    <p>
+                        After the registration you'll receive an email to confirm.
+                        If you forget the password we can send you a new one.
+                    </p>
+
+                </article>   
+            
+            
+            <% end %>
+
+            </section>
+
+        </section>
+
+
+
+
+
+
+
+        <div style="clear: both;"></div>
+
+
+
+
+        <footer>
+
+            <div class="footer_content">	
+
+                <div class="wrapper">
+
+                    <div class="social">
+
+                     <a href="#"><%= image_tag("facebook.png", class: "icons", width: 25) %></a>
+                     <a href="#"><%= image_tag("google.png", class: "icons", width: 25) %></a>
+                     <a href="#"><%= image_tag("twitter.png", class: "icons", width: 25) %></a>
+
+                    </div>
+
+                    &copy; Copyright 2014 - FastCount by Luis Rocha
+
+                </div>
+
+            </div>
+
+        </footer>

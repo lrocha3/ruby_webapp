@@ -5,6 +5,11 @@ Rails.application.routes.draw do
     resources :users
     resources :user_session
 
+get "log_out" => "user_session#destroy", :as => "log_out"
+get "log_in" => "user_session#new", :as => "log_in"
+get "sign_up" => "users#new", :as => "sign_up"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

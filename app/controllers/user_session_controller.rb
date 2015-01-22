@@ -1,16 +1,36 @@
 class UserSessionController < ApplicationController
     
+    
     def new
+       
+    
     end
     
+    def show
+        end
+    
     def create
-       user = User.authenticate(params[:username],params[:password])
-           if @user.nil?
-               
-               else
-           redirect_back_or_to(user_path, message: "Esta logado!")
+      
+       
+         user = User.authenticate(params[:username], params[:password])
+        
+  if user
+    session[:user_session_id] = user.id
+    redirect_to root_url
+  else
+      flash.now.alert = "Invalid email or password"
+    render "new"
+  end
             
-       end
+            
+            
     end
+    
+    
+    def destroy
+  session[:user_session_id] = nil
+  redirect_to root_url
+end
+    
     
 end
