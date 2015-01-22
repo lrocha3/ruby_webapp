@@ -1,0 +1,87 @@
+
+
+<aside>
+
+            <div id="operations">
+
+                <h3>Operations</h3>
+
+               <%= link_to "<button>Add Income</button>".html_safe, add_income_path %>
+                
+                <%= link_to "<button>Show Incomes</button>".html_safe, add_income_path %>
+                
+               
+            </div>
+
+        </aside>
+
+
+
+
+
+
+
+        <section id="box_operations">
+
+            <article>    
+
+                <h3>All Incomes</h3>									
+                
+                <table>
+                        <tr>
+        <th>Amount</th>
+        <th>Date</th>
+    <th>Description</th>
+
+            </tr>
+
+                
+                <% @incomes.each do |income| %>
+                
+                    <tr>
+                    <td><%= income.amount %></td>
+                        <td><%= income.date %></td>
+                        <td><%= income.description %></td>
+                    </tr>
+                
+                
+                <% end %>
+</table>
+
+
+                 
+
+            </article>
+
+        </section>
+
+
+
+        <div style="clear: both;"></div>
+
+
+
+
+        <footer>
+
+            <div class="footer_content">	
+
+                <div class="wrapper">
+
+                    <div class="social">
+
+                     <a href="#"><%= image_tag("facebook.png", class: "icons", width: 25) %></a>
+                     <a href="#"><%= image_tag("google.png", class: "icons", width: 25) %></a>
+                     <a href="#"><%= image_tag("twitter.png", class: "icons", width: 25) %></a>
+
+                    </div>
+
+                    &copy; Copyright 2014 - FastCount by Luis Rocha
+
+                </div>
+
+            </div>
+
+        </footer>
+
+

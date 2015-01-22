@@ -4,8 +4,12 @@ Rails.application.routes.draw do
     root 'users#index'
     resources :users
     resources :user_session
+    resources :incomes
     
-    get "welcome" => "welcome#index"
+    get "welcome" => "welcome#index", :as => "welcome"
+    get "add_income" => "incomes#index", :as => "add_income"
+    get "show_income" => "incomes#show", :as => "show_income"
+
 
     
 get "log_out" => "user_session#destroy", :as => "log_out"

@@ -1,0 +1,124 @@
+
+
+<aside>
+
+            <div id="operations">
+
+                <h3>Operations</h3>
+
+     
+                
+                <%= link_to "<button>Add Income</button>".html_safe, add_income_path %>
+               
+                <%= link_to "<button>Show Incomes</button>".html_safe, show_income_path %>
+                
+                
+            </div>
+
+        </aside>
+
+
+
+
+
+
+        <section id="box_operations">
+
+            <article>    
+
+                <h3>Add Income</h3>									
+
+
+                <%= form_for @income do |f| %>
+
+                    <div class="left">
+
+                        <h4>Data</h4>
+
+                      
+                <br/>
+                          <%= f.label :"Amount:" %>
+                <br />
+                    <%= f.text_field :amount %> 
+                <br/>
+                       
+                         <%= f.label :"Date:" %>
+                <br />
+                    <%= f.text_field :date %> 
+                <br/>
+                        
+                      
+                         <%= f.label :"Description:" %>
+                <br />
+                    <%= f.text_field :description %> 
+                        
+                        <br/>
+                   
+                        <%= f.submit "OK" %>
+                        
+                        
+                   
+                       
+
+                    </div>
+
+                    <div class="right">
+
+                      <% if @income.errors.any? %>
+             
+
+                    
+                    <p>
+                    <h2>Errors:</h2>
+                    <ul>
+                        <% @income.errors.full_messages.each do |message| %>
+                            <li><%= message %></li>
+                        <% end %>
+                    </ul>
+                    
+                
+                    </p>
+
+               
+            
+            <% end %>  
+           
+
+                    </div>
+
+                <% end %>
+
+            </article>
+
+        </section>
+
+
+
+        <div style="clear: both;"></div>
+
+
+
+
+        <footer>
+
+            <div class="footer_content">	
+
+                <div class="wrapper">
+
+                    <div class="social">
+
+                     <a href="#"><%= image_tag("facebook.png", class: "icons", width: 25) %></a>
+                     <a href="#"><%= image_tag("google.png", class: "icons", width: 25) %></a>
+                     <a href="#"><%= image_tag("twitter.png", class: "icons", width: 25) %></a>
+
+                    </div>
+
+                    &copy; Copyright 2014 - FastCount by Luis Rocha
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
