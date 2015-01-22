@@ -60,7 +60,7 @@
 
                 
                 
-                    <% if flash %>
+                <% if !flash.empty? %>
                 <article class="row">  
 
                     
@@ -83,8 +83,7 @@
 
                 <%= image_tag "password.png" %>
                     <p>
-                        Please choose a password with characters and numbers.
-                        It's for your safety!
+                        Care about your credentials. After using the application Log Out!
                     </p>
 
                 </article>   
@@ -94,8 +93,7 @@
 
                 <%= image_tag "email.png" %>
                     <p>
-                        After the registration you'll receive an email to confirm.
-                        If you forget the password we can send you a new one.
+                       If there's a problem with your acount fell free to contact us!
                     </p>
 
                 </article>   

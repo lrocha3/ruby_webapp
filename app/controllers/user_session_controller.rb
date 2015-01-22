@@ -1,13 +1,9 @@
 class UserSessionController < ApplicationController
     
-    
+        
     def new
-       
-    
     end
     
-    def show
-        end
     
     def create
       
@@ -16,7 +12,7 @@ class UserSessionController < ApplicationController
         
   if user
     session[:user_session_id] = user.id
-    redirect_to root_url
+redirect_to welcome_path
   else
       flash.now.alert = "Invalid email or password"
     render "new"

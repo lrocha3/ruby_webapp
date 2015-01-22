@@ -4,7 +4,10 @@ Rails.application.routes.draw do
     root 'users#index'
     resources :users
     resources :user_session
+    
+    get "welcome" => "welcome#index"
 
+    
 get "log_out" => "user_session#destroy", :as => "log_out"
 get "log_in" => "user_session#new", :as => "log_in"
 get "sign_up" => "users#new", :as => "sign_up"
